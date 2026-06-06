@@ -11,7 +11,7 @@
 # placeholder 一覧は specs/039-homebrew-distribution/contracts/release-artifacts.md C6 を参照。
 class DevCockpit < Formula
   desc "Web dashboard for tmux sessions, Claude Code jobs, and Obsidian docs"
-  homepage "https://github.com/hsmorikawa/dev-cockpit"
+  homepage "https://github.com/hsmorikawa/homebrew-tap"
   version "0.1.0"
   license "MIT"
 
@@ -21,22 +21,22 @@ class DevCockpit < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/hsmorikawa/dev-cockpit/releases/download/v0.1.0/dev-cockpit-0.1.0-aarch64-apple-darwin.tar.gz"
+      url "https://github.com/hsmorikawa/homebrew-tap/releases/download/v0.1.0/dev-cockpit-0.1.0-aarch64-apple-darwin.tar.gz"
       sha256 "d7a192a27e316ee239750d83a9d9b39a5aa6de0d98e998df77b2ca5117278580"
     end
     on_intel do
-      url "https://github.com/hsmorikawa/dev-cockpit/releases/download/v0.1.0/dev-cockpit-0.1.0-x86_64-apple-darwin.tar.gz"
+      url "https://github.com/hsmorikawa/homebrew-tap/releases/download/v0.1.0/dev-cockpit-0.1.0-x86_64-apple-darwin.tar.gz"
       sha256 "d9dc6c6d319528ccb0c68e0ea6214aa3b256ff1a4448505962e3928b6d4baba0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hsmorikawa/dev-cockpit/releases/download/v0.1.0/dev-cockpit-0.1.0-aarch64-unknown-linux-gnu.tar.gz"
+      url "https://github.com/hsmorikawa/homebrew-tap/releases/download/v0.1.0/dev-cockpit-0.1.0-aarch64-unknown-linux-gnu.tar.gz"
       sha256 "81d5f702512bd46a38ce599f4015c443df0ffa572a8203ac568cacd1cef00bbb"
     end
     on_intel do
-      url "https://github.com/hsmorikawa/dev-cockpit/releases/download/v0.1.0/dev-cockpit-0.1.0-x86_64-unknown-linux-gnu.tar.gz"
+      url "https://github.com/hsmorikawa/homebrew-tap/releases/download/v0.1.0/dev-cockpit-0.1.0-x86_64-unknown-linux-gnu.tar.gz"
       sha256 "8ed44a5bae885cce7f158864a081bd01074ace17f7fa5fc918f692db56b0a934"
     end
   end
