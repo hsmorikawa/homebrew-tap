@@ -12,7 +12,7 @@
 class DevCockpit < Formula
   desc "Web dashboard for tmux sessions, Claude Code jobs, and Obsidian docs"
   homepage "https://github.com/hsmorikawa/homebrew-tap"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   # dev-cockpit の中核機能は tmux セッション監視。git は project status 集約等で使うが
@@ -21,23 +21,23 @@ class DevCockpit < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/hsmorikawa/homebrew-tap/releases/download/v0.1.0/dev-cockpit-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "d7a192a27e316ee239750d83a9d9b39a5aa6de0d98e998df77b2ca5117278580"
+      url "https://github.com/hsmorikawa/homebrew-tap/releases/download/v0.2.0/dev-cockpit-0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "b476006d0d5113e762d9e4273eba5de956204d5161b866d24fcdc977a193e9c7"
     end
     on_intel do
-      url "https://github.com/hsmorikawa/homebrew-tap/releases/download/v0.1.0/dev-cockpit-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "d9dc6c6d319528ccb0c68e0ea6214aa3b256ff1a4448505962e3928b6d4baba0"
+      url "https://github.com/hsmorikawa/homebrew-tap/releases/download/v0.2.0/dev-cockpit-0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "36c796c0878b557d0500af38fbe5ea59128f5c83d0b742feb6687326d789fb52"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hsmorikawa/homebrew-tap/releases/download/v0.1.0/dev-cockpit-0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "81d5f702512bd46a38ce599f4015c443df0ffa572a8203ac568cacd1cef00bbb"
+      url "https://github.com/hsmorikawa/homebrew-tap/releases/download/v0.2.0/dev-cockpit-0.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "05818efa8cd12755366453c881620d96e6ebab9f116ca6e83ec8e5a6439f807c"
     end
     on_intel do
-      url "https://github.com/hsmorikawa/homebrew-tap/releases/download/v0.1.0/dev-cockpit-0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8ed44a5bae885cce7f158864a081bd01074ace17f7fa5fc918f692db56b0a934"
+      url "https://github.com/hsmorikawa/homebrew-tap/releases/download/v0.2.0/dev-cockpit-0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e822123c8a1e5280ec73db3aa3a49c6e5ecb5f27f66069d02ee3c813f2b3873d"
     end
   end
 
